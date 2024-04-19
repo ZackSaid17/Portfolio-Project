@@ -1,0 +1,237 @@
+body{
+    font-family: Monospace;
+    margin: 0;
+    background-color: #F2F2E4;
+    overflow-x: hidden;
+}
+
+.title{
+    color: white;
+}
+
+.bar{
+    width: max-content;
+    background-color: #72736E;
+    display: flex;
+    justify-content: space-around;
+    
+    position: fixed;
+    top: 0px;
+    width: 100%;
+
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 4rem;
+    list-style: none;
+    
+}
+
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar a:hover{
+    color: hsl(60, 2%, 30%);
+}
+
+@media screen and (max-width: 800px){
+    .bar{
+        padding-right: 7px;
+        padding-left: 7px;
+    }
+    .navbar ul{
+        gap: 1rem;
+    }
+    .navbar a{
+        font-size: 12px;
+    }
+}
+
+
+
+.aboutMe{
+    padding: 100px 25px 0px;
+   
+    
+    display: flex;
+    justify-content: space-between;
+
+    
+
+}
+
+
+
+.text{
+    padding: 40px 35px;
+    width: 50%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+
+}
+
+.image{
+   
+   padding: 0px 25px;
+    
+}
+
+.image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    width: 500px;
+}
+
+@media screen and (max-width: 800px){
+
+    .image{
+        padding: 0px 5px;
+    }
+
+    .image img{
+        
+        width: 250px;
+    }
+    .text{
+        padding: 0px 5px;
+        font-size: 16px;
+    }
+}
+
+
+
+.skills{
+    
+    padding: 40px 25px;
+}
+
+.logos{
+    
+    padding: 0px 0px;
+    
+}
+
+.logos img{
+    width: 90px;
+    margin-right: px;
+}
+
+
+@media screen and (max-width: 800px){
+    .logos img{
+        width: 25px;
+        margin-right: 30px;
+    }
+
+    .logos{
+        padding: 0px 0px;;
+    }
+}
+
+
+.projects{
+    height: 400px;
+    padding: 40px 25px;
+}
+
+.links li{
+    font-size: 27px;
+    margin-bottom: 15px;
+}
+
+.links a{
+    color: black;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 800px){
+    .links li{
+        font-size: 18px;
+    }
+}
+
+
+
+footer{
+    width: 100%;
+    padding: 5px;
+    background-color: #72736E;
+}
+
+.Contact{
+    text-align: center;
+}
+
+.Contact h1{
+    font-size: 40px;
+    color: #F2F2E4;
+}
+
+.Contact p{
+    color: #F2F2E4;
+    font-size: 20px;
+}
+
+.contact-links{
+    text-align: center;
+}
+
+.contact-links ul{
+    display: inline-flex;
+    flex-direction: row;
+    gap: 40px;
+    
+}
+
+.contact-links li{
+    font-size: 24px;
+    list-style-type: none;
+    color: #F2F2E4;
+}
+
+.contact-links a{
+    color: #F2F2E4;
+}
+
+
+
+
+@media screen and (max-width: 1000px){
+    .Contact h1{
+        font-size: 30px;
+    }
+
+    .Contact p{
+        font-size: 14px;
+    }
+
+    .contact-links ul{
+        display: inline-flex;
+        flex-direction: row;
+        gap: 20px;
+        
+    }
+
+    .contact-links li{
+        font-size: 12px;
+        list-style-type: none;
+        color: #F2F2E4;
+    }
+}
+
